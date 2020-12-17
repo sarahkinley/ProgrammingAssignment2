@@ -3,7 +3,7 @@
 ## Create a special 'matrix' object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
-        verse <- NULL ## Set the value of the vector
+        verse <- NULL ## Set the value of the vector, 'verse'
         set <- function(y) {
                 x <<- y
                 verse <<- NULL
